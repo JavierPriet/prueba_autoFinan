@@ -1,0 +1,99 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('../node_modules/@angular/material/prebuilt-themes/indigo-pink.css');
+
+@font-face {
+    font-family: "VGA";
+    src: local("VGA"), url(./assets/fonts/VAGBold.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: local("Gotham"), url(./assets/fonts/GothamLight.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'VAG Rounded Next';
+    font-style: normal;
+    font-weight: 400;
+    src: local('VAG Rounded Next'), url(./assets/fonts/VAGROUNDEDNEXT.woff) format('woff');
+}
+
+* {
+    font-family: VAG Rounded Next;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.fondo>.row.g-0 {
+    min-height: 100vh;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 7px 3px 1em 3px;
+}
+
+.mat-radio-button.mat-accent .mat-radio-inner-circle,
+.mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple,
+.mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+    background-color: rgb(0, 171, 199)
+}
+
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border-color: rgb(0, 171, 199)
+}
+
+.myPanelClass {
+    margin-top: 30px !important;
+}
+
+div.sociedad>mat-form-field>div>div.mat-form-field-flex {
+    box-shadow: 5px 5px #00acc8;
+    border-radius: 10px;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-start,
+.mat-form-field-appearance-outline .mat-form-field-outline-end,
+.mat-form-field-appearance-outline .mat-form-field-outline-gap {
+    border-color: #00acc8;
+}
+
+.mat-select-value-text {
+    color: #00acc8;
+    font-weight: bold;
+}
+
+.mat-focused.mat-form-field-appearance-outline .mat-form-field-outline-start,
+.mat-focused.mat-form-field-appearance-outline .mat-form-field-outline-end,
+.mat-focused.mat-form-field-appearance-outline .mat-form-field-outline-gap {
+    border-color: #00acc8;
+}
+
+.mat-checkbox-indeterminate.mat-primary .mat-checkbox-background,
+.mat-checkbox-checked.mat-primary .mat-checkbox-background {
+    background-color: rgb(0, 171, 199)
+}
+
+.mat-checkbox-frame {
+    border-radius: 5px;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick .mat-form-field-outline-start,
+.mat-form-field-appearance-outline .mat-form-field-outline-thick .mat-form-field-outline-end,
+.mat-form-field-appearance-outline .mat-form-field-outline-thick .mat-form-field-outline-gap {
+    border-width: 1px !important;
+}
+mat-checkbox .mat-checkbox-layout{
+    white-space: normal;
+}
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-checkbox-checked.mat-accent .mat-checkbox-background,.mat-checkbox-checked:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element, .mat-checkbox:active:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element{
+    background: rgb(0, 171, 199)
+}

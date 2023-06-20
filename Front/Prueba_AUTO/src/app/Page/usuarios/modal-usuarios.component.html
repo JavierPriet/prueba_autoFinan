@@ -1,0 +1,36 @@
+<div mat-dialog-title style="text-align: right;">
+    <mat-icon mat-dialog-close style="color: rgb(0, 172, 200);">
+        close
+    </mat-icon>
+</div>
+<mat-dialog-content class="mat-typography row" [formGroup]="form">
+    <mat-form-field appearance="legacy" class="col-md-3">
+        <mat-label>Nombre</mat-label>
+        <input matInput placeholder="Nombre" formControlName="nombre">
+    </mat-form-field>
+    <mat-form-field appearance="legacy" class="col-md-3">
+        <mat-label>Usuario</mat-label>
+        <input matInput placeholder="Usuario" formControlName="usuario">
+    </mat-form-field>
+    <mat-form-field appearance="legacy" class="col-md-3">
+        <mat-label>Correo</mat-label>
+        <input matInput placeholder="Correo de contacto" formControlName="correo">
+    </mat-form-field>
+    <div class="m-0 px-0 row" style="border-radius: 4px;    border: 1px solid rgb(221, 221, 221);    background-color: rgb(245, 245, 245);    padding-top: 1em;">
+        <mat-form-field appearance="legacy" class="col-md-3" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-html="true" data-bs-placement="bottom" data-bs-content="<ul><li>Debe tener mínimo 8 caracteres.</li><li>Contener mínimo una letra en mayúscula.</li><li>Contener mínimo un número.</li><li>Contener mínimo un carácter especial.</li><li>No debe tener espacios en blanco</li></ul>">
+            <mat-label>Contraseña</mat-label>
+            <input matInput placeholder="Contraseña" formControlName="contrasena" [type]="form.get('mostrar')?.value?'text':'password'">
+        </mat-form-field>
+        <mat-form-field appearance="legacy" class="col-md-3" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-html="true" data-bs-placement="bottom" data-bs-content="<ul><li>Debe tener mínimo 8 caracteres.</li><li>Contener mínimo una letra en mayúscula.</li><li>Contener mínimo un número.</li><li>Contener mínimo un carácter especial.</li><li>No debe tener espacios en blanco</li></ul>">
+            <mat-label>Confirmar Contraseña</mat-label>
+            <input matInput placeholder="Confirmar Contraseña" formControlName="contrasenaConfirma" [type]="form.get('mostrar')?.value?'text':'password'">
+        </mat-form-field>
+        <mat-checkbox class="col-md-3" name="mostrar" placeholder="mostrar" *ngIf="mostrar"
+            formControlName="mostrar">Mostrar Contraseña
+        </mat-checkbox>
+    </div>
+</mat-dialog-content>
+<div mat-dialog-actions *ngIf="current=='edit'?form.get('contrasena').disabled:true">
+    <button class="buscar" mat-dialog-close>Cerrar</button>&nbsp;
+    <button class="buscar" (click)="guardar()" *ngIf="current!='view'">Guardar</button>
+</div>

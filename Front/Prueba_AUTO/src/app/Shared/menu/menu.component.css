@@ -1,0 +1,58 @@
+.menu{
+    padding: 0px 10px;
+
+}
+.icono{
+    color:rgb(38, 194, 214);
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    flex-shrink: 0;
+    font-size: 1.5rem;
+}
+.menu-contain{
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    -webkit-box-pack: start;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    padding: 8px 16px 8px 8px;
+    border: 0px solid rgb(0, 172, 200);
+    border-bottom: .5px solid #ccc;
+    cursor: pointer;
+    user-select: none;
+}
+.menu-contain svg{
+    user-select: none;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+}
+.menu-contain .name{
+    width: 75%;
+    font-size: 2vh;
+}
+
+.menu-contain[aria-expanded=true]{
+    background: rgb(38, 194, 214);
+}
+.menu-contain[aria-expanded=true] .icono,.menu-contain[aria-expanded=true] .name{
+    color: #fff;
+}
+.menu-contain[aria-expanded=true] svg {
+    transform: rotate(180deg);
+    fill: #fff;
+}
+.Filtro {
+    width: 100%;
+}

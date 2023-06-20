@@ -1,0 +1,53 @@
+<section class="fondo">
+    <div class="col-12 row">
+        <div class="col-6" style="
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    height: 100vh;
+    ">
+        </div>
+        <div class="col-6">
+            <form class="login" [formGroup]="form" (submit)="login()">
+                <h2>Iniciar Sesión</h2>
+                <mat-form-field appearance="outline" class="col-10" floatLabel="always">
+                    <mat-label>Usuario</mat-label>
+                    <input matInput placeholder="Usuario" formControlName="usuario">
+                    <mat-icon matPrefix><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+                            focusable="false" aria-hidden="true" viewBox="0 3 24 24" data-testid="PersonSharpIcon"
+                            style="color: rgb(0, 123, 150);">
+                            <path
+                                d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z">
+                            </path>
+                        </svg></mat-icon>
+                    <mat-error>Campo Requerido</mat-error>
+                </mat-form-field>
+                <mat-form-field appearance="outline" class="col-10">
+                    <mat-label>Contraseña</mat-label>
+                    <input matInput placeholder="Contraseña" formControlName="password" type="password">
+                    <mat-icon matPrefix>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+                            focusable="false" aria-hidden="true" viewBox="0 3 24 24" data-testid="PasswordSharpIcon"
+                            style="color: rgb(0, 123, 150);">
+                            <path
+                                d="M2 17h20v2H2v-2zm1.15-4.05L4 11.47l.85 1.48 1.3-.75-.85-1.48H7v-1.5H5.3l.85-1.47L4.85 7 4 8.47 3.15 7l-1.3.75.85 1.47H1v1.5h1.7l-.85 1.48 1.3.75zm6.7-.75 1.3.75.85-1.48.85 1.48 1.3-.75-.85-1.48H15v-1.5h-1.7l.85-1.47-1.3-.75L12 8.47 11.15 7l-1.3.75.85 1.47H9v1.5h1.7l-.85 1.48zM23 9.22h-1.7l.85-1.47-1.3-.75L20 8.47 19.15 7l-1.3.75.85 1.47H17v1.5h1.7l-.85 1.48 1.3.75.85-1.48.85 1.48 1.3-.75-.85-1.48H23v-1.5z">
+                            </path>
+                        </svg>
+                    </mat-icon>
+                    <mat-icon matSuffix>
+                        <svg (click)="nearest($event)" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+                            focusable="false" aria-hidden="true" viewBox="0 3 24 24" data-testid="VisibilityIcon"
+                            style="color: rgb(0, 123, 150);">
+                            <path
+                                d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z">
+                            </path>
+                        </svg>
+                    </mat-icon>
+                    <mat-error>Campo Requerido</mat-error>
+                </mat-form-field>
+                <button class="acceder col-10" type="submit">Acceder</button><br><br>
+                <a (click)="Olvido()" class="Olvido">Registrar Usuario</a>
+            </form>
+        </div>
+    </div>
+</section>

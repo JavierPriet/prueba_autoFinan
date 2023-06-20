@@ -1,0 +1,23 @@
+<div mat-dialog-title style="text-align: right;">
+    <mat-icon mat-dialog-close style="color: rgb(0, 172, 200);">
+        close
+    </mat-icon>
+</div>
+<mat-dialog-content class="mat-typography row" [formGroup]="form">
+    <mat-form-field appearance="legacy" class="col-md-3">
+        <mat-label>Actividad</mat-label>
+        <input matInput placeholder="Actividad" formControlName="actividad">
+    </mat-form-field>
+    <mat-form-field appearance="legacy" class="col-md-3" >
+        <mat-label>Estado</mat-label>
+        <mat-select disableOptionCentering formControlName="estado" name="Estado">
+            <mat-option value="Progreso">Progreso</mat-option>
+            <mat-option value="Finalizado">Finalizado</mat-option>
+        </mat-select>
+      </mat-form-field>
+    
+</mat-dialog-content>
+<div mat-dialog-actions >
+    <button class="buscar" mat-dialog-close>Cerrar</button>&nbsp;
+    <button class="buscar" (click)="guardar()" *ngIf="current!='view'">Guardar</button>
+</div>

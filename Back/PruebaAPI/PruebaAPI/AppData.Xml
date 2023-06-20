@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConnectionStrings>
+  <Instancia Conector="Server=LAPTOP-NC5QE02G\SQLEXPRESS;Database=PruebaFinanci;Trusted_Connection=True;">Prueba</Instancia>
+</ConnectionStrings>

@@ -1,0 +1,24 @@
+<div class="menu">
+    <div class="menu-contain" [routerLink]="'/Inicio/Usuarios'" routerLinkActive="active" (click)="save(men)"
+    [attr.aria-controls]="'link1'">
+    <mat-icon aria-hidden="false" [fontIcon]="'dashboard'" class="icono"></mat-icon>
+    <div class="name">
+        {{'Usuario'}}
+    </div>
+   
+    <!-- <div class="menu-contain" [routerLink]="'/Inicio'+men3.ruta" routerLinkActive="active"
+    (click)="save(men3)" [attr.aria-controls]="'link'+men.id" *ngIf="men3.items.length==0">
+    <mat-icon aria-hidden="false" [fontIcon]="men3.icon==''?'dashboard':men3.icon"
+        class="icono"></mat-icon>
+    <div class="name">
+        {{men3.name}}
+    </div>
+</div> -->
+    </div>
+    <div class="menu-contain" [routerLink]="'/Inicio/Actividades'" routerLinkActive="active" (click)="save(men)"
+    [attr.aria-controls]="'link1'">
+    <mat-icon aria-hidden="false" [fontIcon]="'dashboard'" class="icono"></mat-icon>
+    <div class="name">
+        {{'Actividades'}}
+    </div>
+</div>

@@ -1,0 +1,10 @@
+C:\Users\hj_15\source\repos\PruebaAPI\Basededatos\bin\Debug\netcoreapp3.1\Basededatos.deps.json
+C:\Users\hj_15\source\repos\PruebaAPI\Basededatos\bin\Debug\netcoreapp3.1\Basededatos.dll
+C:\Users\hj_15\source\repos\PruebaAPI\Basededatos\bin\Debug\netcoreapp3.1\Basededatos.pdb
+C:\Users\hj_15\source\repos\PruebaAPI\Basededatos\obj\Debug\netcoreapp3.1\Basededatos.csproj.AssemblyReference.cache
+C:\Users\hj_15\source\repos\PruebaAPI\Basededatos\obj\Debug\netcoreapp3.1\Basededatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hj_15\source\repos\PruebaAPI\Basededatos\obj\Debug\netcoreapp3.1\Basededatos.AssemblyInfoInputs.cache
+C:\Users\hj_15\source\repos\PruebaAPI\Basededatos\obj\Debug\netcoreapp3.1\Basededatos.AssemblyInfo.cs
+C:\Users\hj_15\source\repos\PruebaAPI\Basededatos\obj\Debug\netcoreapp3.1\Basededatos.csproj.CoreCompileInputs.cache
+C:\Users\hj_15\source\repos\PruebaAPI\Basededatos\obj\Debug\netcoreapp3.1\Basededatos.dll
+C:\Users\hj_15\source\repos\PruebaAPI\Basededatos\obj\Debug\netcoreapp3.1\Basededatos.pdb

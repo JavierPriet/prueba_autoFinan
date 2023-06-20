@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaAPI", "PruebaAPI\PruebaAPI.csproj", "{2DAF0D63-6DA0-451D-AE51-28FAFE6C9EA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{812B3970-C0B1-4C77-92F5-3FF1AA70996C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basededatos", "Basededatos\Basededatos.csproj", "{851EE4F7-11B2-41B8-9D36-B96BC2F0C1D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DAF0D63-6DA0-451D-AE51-28FAFE6C9EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DAF0D63-6DA0-451D-AE51-28FAFE6C9EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DAF0D63-6DA0-451D-AE51-28FAFE6C9EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DAF0D63-6DA0-451D-AE51-28FAFE6C9EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{812B3970-C0B1-4C77-92F5-3FF1AA70996C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812B3970-C0B1-4C77-92F5-3FF1AA70996C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812B3970-C0B1-4C77-92F5-3FF1AA70996C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812B3970-C0B1-4C77-92F5-3FF1AA70996C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851EE4F7-11B2-41B8-9D36-B96BC2F0C1D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851EE4F7-11B2-41B8-9D36-B96BC2F0C1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851EE4F7-11B2-41B8-9D36-B96BC2F0C1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851EE4F7-11B2-41B8-9D36-B96BC2F0C1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17EA1732-6B87-432B-8C3D-2430C3C00F6F}
+	EndGlobalSection
+EndGlobal

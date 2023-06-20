@@ -1,0 +1,13 @@
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\bin\Debug\netcoreapp3.1\Entidades.deps.json
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\bin\Debug\netcoreapp3.1\Entidades.dll
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\bin\Debug\netcoreapp3.1\Entidades.pdb
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.csproj.AssemblyReference.cache
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.AssemblyInfoInputs.cache
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.AssemblyInfo.cs
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.dll
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.pdb
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\bin\Debug\netcoreapp3.1\Basededatos.dll
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\bin\Debug\netcoreapp3.1\Basededatos.pdb
+C:\Users\hj_15\source\repos\PruebaAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.csproj.CopyComplete

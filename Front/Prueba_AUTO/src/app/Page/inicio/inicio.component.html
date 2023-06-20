@@ -1,0 +1,13 @@
+<app-header [inputSideNav]="sidenav"></app-header>
+<div id="content">
+    <mat-sidenav-container class="example-container">
+        <mat-sidenav mode="over" #sidenav hasBackdrop="true" fixedInViewport="true" >
+            <app-menu (close)="sidenav.toggle()"></app-menu>
+        </mat-sidenav>
+        <mat-sidenav-content>
+            <div class="col-12">
+                <router-outlet></router-outlet>
+            </div>
+        </mat-sidenav-content>
+      </mat-sidenav-container>
+</div>

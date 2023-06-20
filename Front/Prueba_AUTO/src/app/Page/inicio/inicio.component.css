@@ -1,0 +1,15 @@
+#content{
+    top: 11vh;
+    position: fixed;
+}
+mat-sidenav{
+    width: 15%;
+    top: 10.5vh !important;
+}
+mat-sidenav-content {
+    width: 100vw;
+    height: 100vh;
+    background-color:azure;
+    background-repeat: no-repeat;
+    background-position: center;
+}
